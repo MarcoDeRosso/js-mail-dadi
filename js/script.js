@@ -6,9 +6,9 @@
 
  var output = document.getElementById("log-in");
 
- /for (var i = 0; i < emailRegistered.length; i++) {
- if (emailRegistered[i] === emailLogIn)
-     check = true;
+ for (var i = 0; i < emailRegistered.length; i++) {
+     if (emailRegistered[i] === emailLogIn)
+         check = true;
  }
 
  if (check) {
